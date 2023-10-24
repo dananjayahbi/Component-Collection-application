@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "id": "d18c274277a7f7106ff8c6c85fd7e2d039e1a6628c921a7e76071067416ba06f",
+            "name": "categ 1"
+        },
+        {
+            "id": "03421064f08c4480ed60b89efc5ef0fc40fdce81b31ff275eec9de6fdef1a199",
+            "name": "categ 2"
+        },
+        {
+            "id": "c0378a9f018cef663239c33d722cd8690612c750a49cc7236361b00195bc7e88",
+            "name": "categ 3"
+        },
+        {
+            "id": "657e239be4b5d982b8905cd93573a2cc6cbc95248f6d1bb9940a070e60cc2e97",
+            "name": "categ 4"
+        },
+        {
+            "id": "51fe4fc024d2fb574fa5fb1bfe1dfba3e950c190027eafea8797860b7ddeb653",
+            "name": "categ 5"
+        },
+        {
+            "id": "ae795c454c3ea8ed998349dc4bf3b4c8eb7bef16c45a57cb5c9755cb0927090a",
+            "name": "categ 6"
+        }
+    ]
+}

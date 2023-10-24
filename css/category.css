@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.categHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddCategBTN button{
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid rgba(53, 99, 233, 1);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.AddCategBTN button:hover{
+    background-color: rgba(53, 99, 233, 1);
+    color: aliceblue;
+}
+
+/* CSS for the popup form */
+.popup-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 70, 70, 0.7);
+    z-index: 1;
+    color: rgba(24, 24, 24, 0.7);;
+}
+
+.popup-form {
+    background-color: aliceblue;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(-50%, -50%);
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#category-form label, #category-form input {
+    display: block;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#category-form button{
+    padding: 8px;
+    background-color: aliceblue;
+    border: 1px solid rgba(53, 99, 233, 1);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    float: right;
+}
+
+#category-form button:hover{
+    background-color: rgba(53, 99, 233, 1);
+    color: aliceblue;
+}
+
+#category-name{
+    width: 285px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+/*Category Display Cards*/
+/* Styles for the category cards container */
+.category-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styles for each category card */
+.category-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Hover effect for category cards */
+.category-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.edit-button{
+    padding: 5px 50px;
+    background-color: aliceblue;
+    border: 1px solid rgba(53, 99, 233, 1);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.edit-button:hover{
+    background-color: rgba(53, 99, 233, 1);
+    color: aliceblue;
+}
+
+.delete-button{
+    padding: 5px 50px;
+    background-color: aliceblue;
+    border: 1px solid rgba(53, 99, 233, 1);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.delete-button:hover{
+    background-color: rgba(53, 99, 233, 1);
+    color: aliceblue;
+}
