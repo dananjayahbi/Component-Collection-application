@@ -2,7 +2,7 @@
     <div class="headerContainer">
         <div class="headerContent">
             <div class="logo">
-                <a href="./index.php"><img src="./images/logo/bird_2.jpg" alt="logo" width="100px"></a>
+                <a href="./index.php"><img src="./images/logo/bird_2.jpg" alt="logo" width="80px"></a>
             </div>
 
             <div class="headerNavigation">

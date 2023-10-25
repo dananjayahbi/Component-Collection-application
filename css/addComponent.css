@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #121212;
 }
 
 .form-container{
@@ -19,13 +20,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#component-form-title{
+    color: #fff;
+}
+
 .form-content{
     min-width: 50vh;
     min-height: 500px;
     width: 1200px;
     border-radius: 20px;
     padding:  40px 30px;
-    background-color: rgb(230, 255, 255);
+    background-color: rgb(241, 255, 255);
 }
 
 .field{
@@ -85,4 +90,9 @@ form{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.sbmtBTN button:hover{
+    background-color: rgba(53, 99, 233, 1);
+    color: aliceblue;
 }
