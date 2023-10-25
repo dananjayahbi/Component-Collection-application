@@ -35,9 +35,12 @@ function generateCategoryCards($categories) {
     <title>Category</title>
 </head>
 <body>
+    <!--Header start-->
     <?php
         include("./header.php")
     ?>
+    <!--Header end-->
+
     <!--Hero section-->
     <div class="categHero">
         <div class="addCategBTNcontainer">
@@ -107,6 +110,7 @@ function generateCategoryCards($categories) {
             // Change the form title and show the "Submit" button
             formTitle.textContent = "Add Category";
             submitCategoryButton.style.display = "block";
+            submitCategoryButton.disabled = false;
 
             // Hide the "Update" button
             editCategoryButton.style.display = "none";

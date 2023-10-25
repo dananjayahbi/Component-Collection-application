@@ -10,29 +10,25 @@
 </head>
 <body>
     <!--Header start-->
-    <div class="headerContainer">
-        <div class="headerContent">
-            <div class="logo">
-                <a href="#"><img src="./images/logo/bird_2.jpg" alt="logo" width="100px"></a>
-            </div>
-
-            <div class="headerNavigation">
-                <a href="#" class="hlink"><div class="nText">Home</div></a>
-                <a href="./category.php" class="hlink"><div class="nText">Categories</div></a>
-            </div>
-        </div>
-    </div>
+    <?php
+        include("./header.php")
+    ?>
     <!--Header end-->
 
     <div class="homeHero">
         <div class="addComponentBTN">
             <div class="AddBTN">
-                <button type="button">Add Component</button>
+                <button type="button" id="open-popup-button">Add Component</button>
             </div>
         </div>
-        <div class="homeCategChoose">
-            dhgfhg
-        </div>
     </div>
+
+    <script>
+        function navToAddComponent(){
+            window.location.href = './addComponent.php';
+        }
+
+        document.getElementById("open-popup-button").addEventListener("click", navToAddComponent);
+    </script>
 </body>
 </html>

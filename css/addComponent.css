@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addingForm{
+    width: 100%;
+    color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-content{
+    min-width: 50vh;
+    min-height: 500px;
+    width: 1200px;
+    border-radius: 20px;
+    padding:  40px 30px;
+    background-color: rgb(230, 255, 255);
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+#categSelect select{
+    width: 300px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 1px solid #8f8f8f;
+    border-radius: 5px;
+}
+
+#html-code{
+    min-width: 1050px;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+#css-code{
+    min-width: 1050px;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+#js-code{
+    min-width: 1050px;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+#php-1, #php-2, #php-3, #php-4, #php-5 {
+    min-width: 1050px;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sbmtBTN button{
+    float: right;
+    margin-right: 30px;
+    padding: 10px 40px;
+    background-color: aliceblue;
+    border: 1px solid rgba(53, 99, 233, 1);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
